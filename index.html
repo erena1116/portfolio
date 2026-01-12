@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nemoto Erena | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="wrap header">
+    <a class="brand" href="#top">Nemoto Erena</a>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#cv">CV</a>
+      <a href="#thesis">Thesis</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top" class="wrap">
+    <section class="hero">
+      <h1>研究・活動のまとめ</h1>
+      <p class="lead">卒論 / 研究メモ / プロジェクト（TFT等）を、OBOG向けに一箇所に整理しています。</p>
+      <div class="chips">
+        <a class="chip" href="#thesis">卒論を読む</a>
+        <a class="chip" href="#cv">経歴を見る</a>
+      </div>
+    </section>
+
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>
+        東京理科大学経営学部経営学科。東京理科大学舞踏研究部。国際協力サークルLAGOMを立ち上げ、大学食堂にTFTを導入、運営。
+        関心：CSR・株投資
+      </p>
+    </section>
+
+    <section id="cv" class="card">
+      <h2>CV</h2>
+      <ul class="list">
+        <li><span class="muted">2018</span> 豊島岡女子学園中学校　卒業</li>
+        <li><span class="muted">2019</span> 高等学校卒業程度認定試験　合格</li>
+        <li><span class="muted">2021</span> 豊島岡女子学園高等学校　卒業</li>
+        <li><span class="muted">2022</span> 一浪を経て、東京理科大学経営学部　入学</li>
+        <li><span class="muted">2024</span> 学内でTFT導入・運営</li>
+        <li><span class="muted">2026</span> 東京大学大学院経済学研究科マネジメント専攻経営コース　進学（予定）</li>
+      </ul>
+    </section>
+
+   <section id="thesis" class="card">
+  <h2>Thesis</h2>
+  <p class="muted">各論文について、本文・要約・発表資料をまとめています。</p>
+
+  <div class="papers">
+    <!-- 論文1本目 -->
+    <article class="paper">
+      <div class="paper-head">
+        <h3 class="paper-title">卒業論文　楽天モバイルのマーケティング課題と解決策: 
+消費者2500人の調査データ分析 </h3>
+        <span class="badge"></span>
+      </div>
+
+      <p class="paper-meta">2026 / キーワード：ブランド・マーケットバスケット分析</p>
+      <p class="paper-abs">
+        4人での共著論文。
+        本研究では、2,500人を対象とした調査データを用い、マーケットバスケット分析およびロジスティック回帰分析を通じて、
+        楽天モバイルの契約意向と関連サービスの利用・認知、ならびに競合他社サービスとの関係性を検証し、
+        通信市場におけるマーケティング上の課題とその解決に向けた示唆を得ることを目指した。
+      </p>
+
+      <div class="buttons">
+        <!-- 本文PDF -->
+        <a class="btn" href="ここにパスをコピー" target="_blank" rel="noopener">
+          本文PDF
+        </a>
+
+        <!-- 1枚要約 -->
+        <a class="btn ghost" href="assets/paper-1/summary.pdf" target="_blank" rel="noopener">
+          抄録
+        </a>
+
+        <!-- 発表用スライド -->
+        <a class="btn ghost" href="assets/thesis-slides.pdf" target="_blank" rel="noopener">
+          発表スライド
+        </a>
+      </div>
+    </article>
+
+    <!-- 論文2本目（必要ならコピペ） -->
+    <article class="paper">
+      <div class="paper-head">
+        <h3 class="paper-title">研究計画書：非上場中小企業におけるCSR活動に地域社会は不可欠か</h3>
+        <span class="badge">Paper</span>
+      </div>
+
+      <p class="paper-meta">2025</p>
+      <p class="paper-abs">大学院試験の際に提出した研究計画書。面接時に教授陣から不評であった。</p>
+
+      <div class="buttons">
+        <a class="btn" href="assets/paper-2/main.pdf" target="_blank" rel="noopener">
+          本文PDF
+        </a>
+        <a class="btn ghost" href="assets/paper-01-summary.pdf" target="_blank" rel="noopener">
+          1枚要約
+        </a>
+        <a class="btn ghost" href="assets/paper-01-slides.pdf" target="_blank" rel="noopener">
+          発表スライド
+        </a>
+      </div>
+    </article>
+  </div>
+</section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>
+        連絡先：<a href="mailto:nemoto.from.japan@gmail.com">nemoto.from.japan@gmail.com</a><br>
+        LinkedIn：<a href="https://www.linkedin.com/in/erena-nemoto-812351305/ target="_blank" rel="noopener">プロフィール</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <small>© <span id="y"></span> Nemoto Erena</small>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
